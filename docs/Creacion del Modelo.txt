@@ -1,0 +1,16 @@
+Corremos la api que se ha creado 
+Ejemplo:
+http://localhost/pokemonjson/controller/pokemon.php?op=listar
+
+##Luego nos bamos a la Pagina 
+
+Ejemplo
+https://app.quicktype.io/
+
+y ahi damos clic en  "uicktype"
+
+Luego copiamos toda la informacion del api que se a creado
+y lo transformamos a Lenjuage en Dart
+o Java segun el lenguaje de programación usado
+
+Luego Copiamos todo lo que nos ha Convertido

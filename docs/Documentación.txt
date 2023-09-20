@@ -1,0 +1,47 @@
+1. Crtl + Shift + P -> Create proyecto Flutter 
+2. Crtl + Shift + P -> Flutter select Device
+3. Darle FN F5 
+4. Modelo para App https://dribbble.com/shots/6540871-Pokedex-App5.
+
+5. Programar
+6. Publicar
+
+
+####################################
+Para Agregar librerias tebemos que ir a 
+-> pubspec.yaml y agregar todas las librerias que nesesitemos:
+Debajo de -> cupertino_icons: ^1.0.2
+->Agregamos Cached network image # que esto permite que cuando carga una imagen este un loader-->cached_network_image: ^3.2.3
+ # Tener en cuenta los espacios.
+
+Despues debemos ejecutar el comando flutter packages get o bien desde Android Studio Tools
+    GetX-> este nos va ayudar mucho al momento de llamar y mostrar la información
+    En caso no se instale lo hacemos -->flutter pub get --->Paractica el GetX
+    
+    # Esto nos sirve para traer la informacion de nuestro JSON.
+    Dio es mas favorable es el http
+
+Creamos para las imagenes y tenemos que habilitar en el pubspec.yaml
+assets:
+   - images/
+
+
+Whidget--> Son como los div de la Web
+Scadfold--> Esto Soporta Varios Widwets
+Stack--> Esto Permite poner un objeto encima del otro con el children uno encima del otro
+Container(child: Text("ELISAY DEVCODE"),);-->tE MUESTRA <i class="fa fa-file-text-o" aria-hidden="true"></i>
+
+Gridviu --->Se Parese al data table de js
+
+SliverGridDelegateWithFixedCrossAxisCount---Son Como Tablas
+
+###Este Como un loader
+placeholder:((context, url) => Center(
+child: CircularProgressIndicator(),
+
+#####
+Esto es para obtener el ancho y alto de la pantalla
+var height = MediaQuery.of(context).size.height;
+var width = MediaQuery.of(context).size.width;
+
+
